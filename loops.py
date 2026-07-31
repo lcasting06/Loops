@@ -1,5 +1,3 @@
-# Taco Palace
-
 def menu():
     print()
     print("Taco Palace Menu")
@@ -8,7 +6,6 @@ def menu():
     print("3. Nachos - $4.87")
     print("4. Soft Drink - $1.99")
     print("5. Quit")
-
 
 def price(choice):
     if choice == 1:
@@ -19,7 +16,6 @@ def price(choice):
         return 4.87
     elif choice == 4:
         return 1.99
-
 
 print("Welcome to Taco Palace!")
 print("Please view the menu below and enter the number that represents your selection.")
