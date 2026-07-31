@@ -61,7 +61,3 @@ for item in orders:
     print(item)
 
 print("Your total is $%.2f" % total)
-print("Thank you for visiting Taco Palace!")
-
-
-
